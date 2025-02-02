@@ -1,0 +1,47 @@
+============================
+# WAKE3D DRIVER INPUT FILE #
+============================
+regrid_interval: 1
+plot_interval: 1
+restart_counter: 0
+
+ncyc: 3
+atm_group: -1
+off_body_group: -1
+number_time_steps: 1
+
+==================
+# OVERSET SOLVER #
+==================
+tioga_so_file: ./libs/libtioga.so
+
+===============
+# IN-SITU VIZ #
+===============
+v#isit_so_file: ../lib/libvisit_extract.so
+
+===============
+# CFD SOLVERS #
+===============
+number_solver_so_files: 1
+so0: ./libs/libdg4est3d.so
+
+==========
+# Groups #
+==========
+number_groups: 2
+group0: 0 1  # group{#}: solver_so_id num_cores
+group1: 0 1
+
+====================
+# Mesh Translation #
+====================
+translation0: 0.0 0.0 0.0
+translation1: 0.0 0.0 0.0
+
+======================
+# Mesh Receptor Flag #
+======================
+receptor_only0: 0
+receptor_only1: 0
+                          

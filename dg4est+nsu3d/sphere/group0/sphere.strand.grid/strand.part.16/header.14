@@ -1,0 +1,86 @@
+-----------------------------LOCAL GRID STATISTICS-----------------------------
+     IMESH     NMESH     NPART  IO_VERSION
+         3         3        16         3
+    NNODE1    NNODE2    NNODE3    NNODE4
+         1      6200      8221      9015
+    NPATCH     NCOMP      NBOD   NXPATCH
+         2         1         1         0
+    NEDGE1    NEDGE2    NEDGE3    EMAXG1    EMAXG2    EMAXG3
+         1     25094     30326         1     37434     42574
+   NBNODE1   NBNODE2   NBNODE3   NBNODE4
+         1       124       174       182
+    NDEGRP   KLGROUP    LBCTYP  NE_LINES    ILINES
+         2         1        10      6138        62
+   NBFACE3   NBFACE4   NBFACE3   NBFACE4     TETRA       PYR     PRIZM       HEX  NBNODE_S
+      3992         0       253         0         0         0     12572         0       182
+     ITYPE
+         2
+     LVDIM
+         1
+INTRA-GRID COMMUNICATION BUFFERS FOR GHOST NODE SET 1
+ NADJ_PRCS NADJ_PRCR
+         6         6         6         6         6         6         6         6         6         6
+      IBVS      IBVR
+      2022      1923      2816      2596      5233      4893        59        49      5141      4871
+-----------------------------LOCAL GRID STATISTICS-----------------------------
+     IMESH     NMESH     NPART  IO_VERSION
+         2         3        16         3
+    NNODE1    NNODE2    NNODE3    NNODE4
+         1       850      1221      1316
+    NEDGE1    NEDGE2    NEDGE3    EMAXG1    EMAXG2    EMAXG3
+         1      3250      3250         1      4652      4652
+   NBNODE1   NBNODE2   NBNODE3   NBNODE4
+         1        34        47        49
+    NDEGRP   KLGROUP    LBCTYP  NE_LINES    ILINES
+         2         1        10       833        17
+   NBFACE3   NBFACE4   NBFACE3   NBFACE4     TETRA       PYR     PRIZM       HEX  NBNODE_S
+         0         0
+     ITYPE
+         2
+     LVDIM
+         1
+INTRA-GRID COMMUNICATION BUFFERS FOR GHOST NODE SET 1
+ NADJ_PRCS NADJ_PRCR
+         5         5         5         5         0         0         3         5         6         6
+      IBVS      IBVR
+       372       519       467       630         1         1        16        23      5141      4871
+INTER-GRID COMMUNICATION (AMG) PARAMETERS 
+   NNODEC1   NNODEC2   NNODEC4   NNODEC5  NBNODE_S
+         1       850      2321      2416        93         1      3250      7396         1        34        93         1      4652     10007
+   NNODEF1   NNODEF2
+         1      6200         1     15050         1       124         1     37434
+ NADJ_PRCS NADJ_PRCR
+         4         4         5         6         4         4         5         6
+      IBVS      IBVR
+      1101      1051      4147      4113        45        43      5356      5544
+-----------------------------LOCAL GRID STATISTICS-----------------------------
+     IMESH     NMESH     NPART  IO_VERSION
+         1         3        16         3
+    NNODE1    NNODE2    NNODE3    NNODE4
+         1       125       297       312
+    NEDGE1    NEDGE2    NEDGE3    EMAXG1    EMAXG2    EMAXG3
+         1       495       495         1       743       743
+   NBNODE1   NBNODE2   NBNODE3   NBNODE4
+         1        10        25        25
+    NDEGRP   KLGROUP    LBCTYP  NE_LINES    ILINES
+         2         1        10       120         5
+   NBFACE3   NBFACE4   NBFACE3   NBFACE4     TETRA       PYR     PRIZM       HEX  NBNODE_S
+         0         0
+     ITYPE
+         2
+     LVDIM
+         1
+INTRA-GRID COMMUNICATION BUFFERS FOR GHOST NODE SET 1
+ NADJ_PRCS NADJ_PRCR
+         6         5         6         5         0         0         5         4         5         6
+      IBVS      IBVR
+       173       149       188       167         1         1        16        10      5356      5544
+INTER-GRID COMMUNICATION (AMG) PARAMETERS 
+   NNODEC1   NNODEC2   NNODEC4   NNODEC5  NBNODE_S
+         1       125       472       487        39         1       495      1086         1        10        39         1       743      1425
+   NNODEF1   NNODEF2
+         1       850         1      2022         1        34         1      4652
+ NADJ_PRCS NADJ_PRCR
+         3         4         5         5         3         4         5         4
+      IBVS      IBVR
+       176       201       592       690        15        17       683       909

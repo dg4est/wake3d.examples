@@ -1,0 +1,38 @@
+# ================ #
+# Groups & Solvers #
+# ================ #
+number_groups:          2
+number_solver_so_files: 2
+
+atm_group:      -1
+off_body_group: -1
+
+# =============== #
+# Simulation Info #
+# =============== #
+number_time_steps:  10
+regrid_interval:    1
+plot_interval:      1
+restart_counter:    0
+
+# ================ #
+# Solver Libraries #
+# ================ #
+so0: /media/akirby/SSD3/codes/dg4est-v2/builds/dg4est_release/lib/libdg4est3d.so
+so1: ../lib/libdg4est3d.so
+
+# =============== #
+# Overset Library #
+# =============== #
+tioga_so_file: ../lib/libtioga.so
+
+# ===================== #
+# VisIt Extract Library #
+# ===================== #
+###visit_so_file: ../lib/libvisit_extract.so
+
+# =========================== #
+# groupID: <soID> <mpi_ranks>
+# =========================== #
+group0: 0 4
+group1: 0 8
