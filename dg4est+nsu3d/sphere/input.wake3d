@@ -5,27 +5,25 @@ regrid_interval: 1
 plot_interval: 100
 restart_counter: 0
 
-ncyc: 3
-atm_group: -1
-off_body_group: 1
+ncyc: 4
 number_time_steps: 10 
 
 ==================
 # OVERSET SOLVER #
 ==================
-tioga_so_file: ./libtioga.so
+tioga_so_file: ./symlibs/libtioga.so
 
 ===============
 # IN-SITU VIZ #
 ===============
-v#isit_so_file: ../lib/libvisit_extract.so
+v#isit_so_file: ./symlibs/libvisit_extract.so
 
 ===============
 # CFD SOLVERS #
 ===============
 number_solver_so_files: 2
-so0: ../lib/libnsu3d.so
-so1: ./libdg4est3d.so.v3
+so0: ./symlibs/libnsu3d.so
+so1: ./symlibs/libdg4est3d.so
 
 ==========
 # Groups #
@@ -33,6 +31,9 @@ so1: ./libdg4est3d.so.v3
 number_groups: 2
 group0: 0 16  # group{#}: solver_so_id num_cores
 group1: 1 4
+
+off_body_group: 1
+atm_group:     -1
 
 ====================
 # Mesh Translation #

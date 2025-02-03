@@ -1,5 +1,5 @@
 NMESH
 1.
 MESH FILE NAMES and Transformations and Motion Definition
-./sphere.strand.grid/strand.part.16
+./grids/sphere.strand.grid/strand.part.16
 0.0 0.0 0.0   1.0 1.0 1.0   1.000000 0.000000 0.000000  0.000000    0.0 0.0 0.0
